@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Registration</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="css/select2.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<style>
+		label{
+			color:white;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div class="bg-contact3" style="background-image: url('images/slide-02-1894x1042.jpg');">
+		<div class="container-contact3">
+			<div class="wrap-contact3">
+				<span class="contact3-form-title">
+					Register Now
+					20DT per member
+				</span>
+				<form class="contact3-form validate-form" id="form" target="_self" autocomplete="off"> 				
+					<datalist id="lycees">
+						<option value="Lycée Pilote de Sfax 1">
+						<option value="Lycée Pilote Sakiet Ezzit">
+						<option value="Lycée Pilote Ariana">
+						<option value="Lycée Pilote Gabes">
+						<option value="Lycée Hedi Soussi Sfax">
+						<option value="Lycée El Hay Sfax">
+						<option value="Lycée Hbib Thameur Sfax">
+						<option value="Lycée Majida Boulila Sfax">
+						<option value="Collége Pilote de Sfax">
+					</datalist>
+					<datalist id="classes">
+						<option value="7th grade">
+						<option value="8th grade">
+						<option value="9th grade">
+						<option value="1st grade">
+						<option value="2nd grade">
+						<option value="3rd grade">
+						<option value="4th grade">
+					</datalist>
+					<div class="wrap-input3 validate-input" data-validate="Name of the team is required">
+						<input class="input3" id="namet" type="text" name="entry.1494490715" placeholder="Team's name" required>
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input" data-validate="Name is required">
+						<input class="input3" id="nameh" type="text" name="entry.1249083254" placeholder="Leader's name" required>
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input3" id="email" type="email" name="entry.250919860" placeholder="Email" required>
+						<span class="focus-input3"></span>
+					</div>
+					<div class="wrap-input3 validate-input" >
+						<input class="input3" id="phone" type="tel" name="entry.831119470" placeholder="Phone Number" title="Format: 22 222 222" required pattern="[0-9]{2} [0-9]{3} [0-9]{3}|[0-9]{8}">
+						<span class="focus-input3"></span>
+					</div>
+					
+					<div class="wrap-input3 validate-input" data-validate="Name is required">
+						<label for="high">Type your high school name if you don't find it in the list:</label>
+						<input class="input3" id="high"  type="text" name="entry.503629925" placeholder="HighSchool" list="lycees" required>
+						<span class="focus-input3"></span>
+					</div>
+					<div class="wrap-input3 validate-input" data-validate="Class is required">
+						<input class="input3" id="class" type="text" name="entry.1718341304" placeholder="Class" list="classes" required>
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input">
+						<div>
+						  <select id="ticket" class="selection-2" name="">
+							<option>4 tickets</option>
+							<option>3 tickets</option>
+						</select>
+						</div>
+						<span class="focus-input3"></span>
+					  </div>
+					<div class="wrap-input3 validate-input" data-validate="Name is required">
+						<input id="name2" class="input3" type="text" name="entry.1738752532" placeholder="2nd member of the team" required>
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input id="email2" class="input3" type="email" name="entry.629826364" placeholder="Email" required>
+						<span class="focus-input3"></span>
+					</div>
+					<div class="wrap-input3 validate-input" >
+						<input id="phone2" class="input3" type="tel" name="entry.1022424803" placeholder="Phone Number" title="Format: 22 222 222" required pattern="[0-9]{2} [0-9]{3} [0-9]{3}|[0-9]{8}">
+						<span class="focus-input3"></span>
+					</div>
+					<div class="wrap-input3 validate-input" data-validate="Name is required">
+						<input id="high2" class="input3" type="text" name="entry.412010612" placeholder="HighSchool" list="lycees" required>
+						<span class="focus-input3"></span>
+					</div>
+					<div class="wrap-input3 validate-input" data-validate="Class is required">
+						<input id="class2" class="input3" type="text" name="entry.1016066648" placeholder="Class" list="classes" required>
+						<span class="focus-input3"></span>
+					</div>
+
+
+					<div class="wrap-input3 validate-input" data-validate="Name is required">
+						<input id="name3" class="input3" type="text" name="entry.529763029" placeholder="3rd member of the Team" required>
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input id="email3" class="input3" type="email" name="entry.42800055" placeholder="Email" required>
+						<span class="focus-input3"></span>
+					</div>
+					<div class="wrap-input3 validate-input" >
+						<input id="phone3" class="input3" type="tel" name="entry.1321334118" placeholder="Phone Number" title="Format: 22 222 222" required pattern="[0-9]{2} [0-9]{3} [0-9]{3}|[0-9]{8}">
+						<span class="focus-input3"></span>
+					</div>	
+					<div class="wrap-input3 validate-input" data-validate="Name is required">
+						<input id="high3" class="input3" type="text" name="entry.789682332" placeholder="HighSchool" list="lycees" required>
+						<span class="focus-input3"></span>
+					</div>
+					<div class="wrap-input3 validate-input" data-validate="Class is required">
+						<input id="class3" class="input3" type="text" name="entry.1417835324" placeholder="Class" list="classes" required>
+						<span class="focus-input3"></span>
+					</div>
+					<div id="ifYes" >
+						<div class="wrap-input3">
+							<input id="name4" class="input3" type="text" name="entry.569848945" placeholder="4rd member of the Team">
+							<span class="focus-input3"></span>
+						</div>
+	
+						<div class="wrap-input3">
+							<input id="email4" class="input3" type="email" name="entry.609555053" placeholder="Email">
+							<span class="focus-input3"></span>
+						</div>
+						<div class="wrap-input3" >
+							<input id="phone4" class="input3" type="tel" name="entry.631085032" placeholder="Phone Number" title="Format: 22 222 222" pattern="[0-9]{2} [0-9]{3} [0-9]{3}|[0-9]{8}">
+							<span class="focus-input3"></span>
+						</div>	
+						<div class="wrap-input3">
+							<input id="high4" class="input3" type="text" name="entry.369241173" placeholder="HighSchool" list="lycees">
+							<span class="focus-input3"></span>
+						</div>
+						<div class="wrap-input3">
+							<input id="class4" class="input3" type="text" name="entry.2075899035" placeholder="Class" list="classes">
+							<span class="focus-input3"></span>
+						</div>
+					</div>
+					
+					<div class="container-contact3-form-btn">
+						<button class="contact3-form-btn">
+							Register
+						</button>
+					</div>
+				</form>
+				<h3 id="success-msg" style="text-align: center !important; display:none; color:#fff">Your request has been submitted. Thank you!</h3>
+			</div>
+		</div>
+	</div>
+	
+
+	<script>
+	function postToGoogle() {
+		var field1 = $("#namet").val();
+		var field2 = $("#nameh").val();
+		var field3 = $("#email").val();
+		var field4 = $("#phone").val();
+		var field5 = $("#high").val();
+		var field6 = $("#class").val();
+		
+		var field8 = $("#name2").val();
+		var field9 = $("#email2").val();
+		var field10 = $("#phone2").val();
+		var field11 = $("#high2").val();
+		var field12 = $("#class2").val();
+		var field13 = $("#name3").val();
+		var field14 = $("#email3").val();
+		var field15 = $("#phone3").val();
+		var field16 = $("#high3").val();
+		var field17 = $("#class3").val();
+		var field18 = $("#name4").val();
+		var field19 = $("#email4").val();
+		var field20 = $("#phone4").val();
+		var field21 = $("#high4").val();
+		var field22 = $("#class4").val();	
+		$.ajax({
+			url: "https://docs.google.com/forms/d/e/1FAIpQLSfhh2wMgRBIyNRXjGInseB3uv0eL1ZcY8Y1xse5lgYgB1jPhA/formResponse?",
+			data: {"entry.1494490715": field1, "entry.1249083254": field2, "entry.250919860": field3, "entry.831119470": field4, "entry.503629925": field5, "entry.1718341304": field6, "entry.1738752532": field8, "entry.629826364": field9, "entry.1022424803": field10, "entry.412010612": field11, "entry.1016066648": field12, "entry.529763029": field13, "entry.42800055": field14, "entry.1321334118": field15, "entry.789682332": field16, "entry.1417835324": field17, "entry.569848945": field18, "entry.609555053": field19, "entry.631085032": field20, "entry.369241173": field21, "entry.2075899035": field22},
+			type: "POST",
+			dataType: "xml",
+			success: function(d)
+			{
+			},
+			error: function(x, y, z)
+			{
+				$('#success-msg').show();
+				$('#form').hide();						
+			}
+		});
+		return false;
+		}
+	</script>
+
+	<div id="dropDownSelect1"></div>
+
+	<script src="js/jquery.select2.min.js"></script>
+	<script>
+		$("#ticket").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+		$("#ticket").on('select2:select', function (e) {
+    var data = e.params.data;
+	if (data.id == "4 tickets") {
+        document.getElementById("ifYes").style.display = "block";
+		$("#ifyes .input3").addClass("validate-input");
+    } else {
+        document.getElementById("ifYes").style.display = "none";
+		$("#ifyes .input3").removeClass("validate-input");
+    }
+});
+	</script>
+	<script src="js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
