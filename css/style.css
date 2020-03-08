@@ -7923,8 +7923,18 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-fullwidth.rd-navbar--is-stuck .rd-navbar-main, .rd-navbar-fullwidth.rd-navbar--is-clone .rd-navbar-main {
 	padding: 10px 0;
 }
+
+.section-swiper-absoulte {
+	position: relative;
+	overflow: hidden;
+}
+
+.section-swiper-absoulte .section-swiper-content {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
 @media (min-width: 992px) {
-	.section-swiper-absoulte .section-swiper-content {
+	.section-swiper-absoulte {
 		padding-top: 250px;
 		padding-bottom: 180px;
 	}
@@ -7940,16 +7950,6 @@ html.rd-navbar-fixed-linked .page {
 		padding-bottom: 210px;
 	}
 }
-.section-swiper-absoulte {
-	position: relative;
-	overflow: hidden;
-}
-
-.section-swiper-absoulte .section-swiper-content {
-	padding-top: 70px;
-	padding-bottom: 70px;
-}
-
 .section-swiper-absoulte .section-swiper-content > *:not(.video-link-wrapper):not(.section-swiper-content-overlay) {
 	position: relative;
 	z-index: 2;
