@@ -7934,7 +7934,7 @@ html.rd-navbar-fixed-linked .page {
 	padding-bottom: 70px;
 }
 @media (min-width: 992px) {
-	.section-swiper-absoulte {
+	.section-swiper-absoulte .section-swiper-content {
 		padding-top: 250px;
 		padding-bottom: 180px;
 	}
