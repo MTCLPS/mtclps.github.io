@@ -7924,6 +7924,20 @@ html.rd-navbar-fixed-linked .page {
 	padding: 10px 0;
 }
 
+.section-swiper-absoulte {
+	position: relative;
+	overflow: hidden;
+}
+
+.section-swiper-absoulte .section-swiper-content {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.section-swiper-absoulte .section-swiper-content > *:not(.video-link-wrapper):not(.section-swiper-content-overlay) {
+	position: relative;
+	z-index: 2;
+}
 /** @section Search Results */
 .rd-search-results-live {
 	position: absolute;
