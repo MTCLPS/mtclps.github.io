@@ -7923,7 +7923,23 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-fullwidth.rd-navbar--is-stuck .rd-navbar-main, .rd-navbar-fullwidth.rd-navbar--is-clone .rd-navbar-main {
 	padding: 10px 0;
 }
+@media (min-width: 992px) {
+	.section-swiper-absoulte .section-swiper-content {
+		padding-top: 250px;
+		padding-bottom: 180px;
+	}
+}
 
+@media (min-width: 1200px) {
+	.section-swiper-absoulte .section-swiper-content {
+		padding-top: 290px;
+		padding-bottom: 300px;
+	}
+	.section-swiper-absoulte .section-swiper-content-sm {
+		padding-top: 350px;
+		padding-bottom: 210px;
+	}
+}
 .section-swiper-absoulte {
 	position: relative;
 	overflow: hidden;
