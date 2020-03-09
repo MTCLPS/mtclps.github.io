@@ -90,13 +90,7 @@
         </div>
       </header>
       <!-- Section Swiper Slider-->
-      <section class="section section-swiper-absoulte context-dark text-center wow fadeIn">
-        <div class="parallax">
-			<picture class="material-parallax">
-				<source type="image/webp" srcset="images/slide-02-1894x1042.webp">
-				<img src="images/slide-02-1894x1042.jpg" alt="" style="display: block">
-			</picture>
-		</div>
+      <section class="section section-swiper-absoulte context-dark text-center wow fadeIn parallax-container" data-parallax-img="images/slide-02-1894x1042.webp">
 		<!-- Waves-->
         <canvas class="waves" data-speed="5" data-wave-width="150%" data-animation="SineInOut"></canvas>
         <!-- Swiper Content-->
@@ -170,9 +164,8 @@
               <div class="countdown countdown-rect" data-countdown="data-countdown" data-to="2020-03-21">
                 <div class="countdown-block box-with-triangle-right wow fadeScale countdown-block-days" data-wow-delay="0s" data-triangle=".countdown-block-overlay">
                   <div class="countdown-block-overlay"></div>
-                  <svg class="countdown-circle" x="0" y="0" width="200" height="237" viewbox="0 0 200 237" data-progress-days="">
-                    <rect class="countdown-rect-bg" x="0" y="0" width="200" height="237"></rect>
-                    <rect class="countdown-rect-fg clipped" x="0" y="0" width="200" height="237"></rect>
+                  <svg class="countdown-box" x="0" y="0" width="200" height="237" viewbox="0 0 200 237">
+                    <rect class="countdown-rect-bg" x="0" y="0" width="200" height="237"></rect>                  
                   </svg>
                   <div class="countdown-wrap">
                     <div class="countdown-counter" data-counter-days="">00</div>
@@ -181,20 +174,18 @@
                 </div>
                 <div class="countdown-block box-with-triangle-right wow fadeScale countdown-block-hours" data-wow-delay="0.125s" data-triangle=".countdown-block-overlay">
                   <div class="countdown-block-overlay"></div>
-                  <svg class="countdown-circle" x="0" y="0" width="200" height="237" viewbox="0 0 200 237" data-progress-hours="">
+                  <svg class="countdown-box" x="0" y="0" width="200" height="237" viewbox="0 0 200 237">
                     <rect class="countdown-rect-bg" x="0" y="0" width="200" height="237"></rect>
-                    <rect class="countdown-rect-fg clipped" x="0" y="0" width="200" height="237"></rect>
                   </svg>
                   <div class="countdown-wrap">
-                    <div class="countdown-counter" data-counter-hours="">00</div>
+                    <div class="countdown-counter" data-counter-hours="13">00</div>
                     <div class="countdown-title">hours</div>
                   </div>
                 </div>
                 <div class="countdown-block box-with-triangle-right wow fadeScale countdown-block-minutes" data-wow-delay="0.25s" data-triangle=".countdown-block-overlay">
                   <div class="countdown-block-overlay"></div>
-                  <svg class="countdown-circle" x="0" y="0" width="200" height="237" viewbox="0 0 200 237" data-progress-minutes="">
+                  <svg class="countdown-box" x="0" y="0" width="200" height="237" viewbox="0 0 200 237" ">
                     <rect class="countdown-rect-bg" x="0" y="0" width="200" height="237"></rect>
-                    <rect class="countdown-rect-fg clipped" x="0" y="0" width="200" height="237"></rect>
                   </svg>
                   <div class="countdown-wrap">
                     <div class="countdown-counter" data-counter-minutes="">00</div>
@@ -203,9 +194,8 @@
                 </div>
                 <div class="countdown-block box-with-triangle-right wow fadeScale countdown-block-seconds" data-wow-delay="0.375s" data-triangle=".countdown-block-overlay">
                   <div class="countdown-block-overlay"></div>
-                  <svg class="countdown-circle" x="0" y="0" width="200" height="237" viewbox="0 0 200 237" data-progress-seconds="">
+                  <svg class="countdown-box" x="0" y="0" width="200" height="237" viewbox="0 0 200 237">
                     <rect class="countdown-rect-bg" x="0" y="0" width="200" height="237"></rect>
-                    <rect class="countdown-rect-fg clipped" x="0" y="0" width="200" height="237"></rect>
                   </svg>
                   <div class="countdown-wrap">
                     <div class="countdown-counter" data-counter-seconds="">00</div>
@@ -939,9 +929,7 @@
 	<script src="js/wow.min.js"></script>
 	<script src="js/jquery.touchSwipe.min.js"></script>
 	<script src="js/util.min.js"></script> 	
-	<script src="js/counter.min.js"></script>
 	<script src="js/countdown.min.js"></script>	
-	<script src="js/progressCircle.min.js"></script>	
 	<script src="js/sine-waves.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	
