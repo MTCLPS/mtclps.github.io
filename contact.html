@@ -222,32 +222,23 @@
 	
     <script src="js/script.js"></script>
     <script>
-      function postToGoogle() {
-                      var field155 = $("#contact-name").val();
-                      var field222 = $("#contact-email").val();
-                      var field388 = $("#contact-message").val();
-                      
-      
-              
-        
-                      $.ajax({
-                          url: "https://docs.google.com/forms/d/e/1FAIpQLSeYd2yWM6MEqEgLr4dnIKDVmTc2VeZfhFksRFzQV6H5sv2Uug/formResponse?",
-                data: {"entry.245577934": field155, "entry.718261614": field222, "entry.1917163251": field388,},
-                          type: "POST",
-                          dataType: "xml",
-                          success: function(d)
-                {
-                },
-                error: function(x, y, z)
-                  {
-      
-                    $('#success-msg').show();
-                    $('#form').hide();
-                    
-                  }
-                      });
-              return false;
-                  }
+     	function postToGoogle() {
+			var field155 = $("#contact-name").val();
+			var field222 = $("#contact-email").val();
+			var field388 = $("#contact-message").val();        
+			$.ajax({
+				url: "https://docs.google.com/forms/d/e/1FAIpQLSeYd2yWM6MEqEgLr4dnIKDVmTc2VeZfhFksRFzQV6H5sv2Uug/formResponse?",
+				data: {"entry.245577934": field155, "entry.718261614": field222, "entry.1917163251": field388,},
+				type: "POST",
+				dataType: "xml",
+				success: function(d){},
+				error: function(x, y, z){
+					$('#success-msg').show();
+					$('#form').hide();
+				}
+			});
+			return false;
+		}
       </script>
   </body>
 </html>
