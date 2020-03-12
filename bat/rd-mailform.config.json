@@ -1,8 +1,0 @@
-{
-  "useSmtp": false,
-  "host": "smtp.gmail.com",
-  "port": 465,
-  "username": "leadhackhoussem@gmail.com",
-  "password": "LeadHack01",
-  "recipientEmail": "leadhackhoussem@gmail.com"
-}
